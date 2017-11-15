@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    long int x,y,b,count=0;
+    scanf("%ld %ld",&x,&y);
+    b=x*y;
+    for(int i=0;i<b/2;i++)
+        if(b%i==0)
+            count++;
+    printf("%ld",count);
+    return 0;
+}
