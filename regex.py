@@ -19,7 +19,7 @@ if roll_check:
 
 dob_check=re.search(match_dob,s)
 if dob_check:
-	print("Date of Birth-",dob_check.group())
+	print("Date of Birth-hsadasj",dob_check.group())
 
 phone_check=re.search(match_number,s)
 if phone_check:
