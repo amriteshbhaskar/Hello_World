@@ -19,7 +19,7 @@ if roll_check:
 
 dob_check=re.search(match_dob,s)
 if dob_check:
-	print("Date of Birth-hsadasj",dob_check.group())
+	print("Date of Birth-",dob_check.group())
 
 phone_check=re.search(match_number,s)
 if phone_check:
@@ -31,7 +31,7 @@ if email_check:
 
 bg_check=re.search(match_bg,s)
 if bg_check:
-	print("Blood Group-",bg_check.group())
+	print("Blood Group- ",bg_check.group())
 
 
 
