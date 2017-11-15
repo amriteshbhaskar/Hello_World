@@ -23,7 +23,7 @@ if dob_check:
 
 phone_check=re.search(match_number,s)
 if phone_check:
-	print("Phone number-   ",phone_check.group())
+	print("Phone number-  ",phone_check.group())
 
 email_check=re.search(match_email,s)
 if email_check:
