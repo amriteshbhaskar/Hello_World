@@ -1,6 +1,6 @@
 import re
 
-s=r"My roll number is IIT2017088 and date of birth is 05/06/1998 and phone number is 8700783753 and my email is tipra2614@gmail.com and my blood group is AB-"
+s=r"My roll number is IIT2017088 and date of birth is 05/06/1998 and phone number is 8700783753 and my email is tipra2614@gmail.com and my blood group is B+"
 
 match_roll=r"(IIT)(\d{7})"
 
