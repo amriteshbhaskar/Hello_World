@@ -5,8 +5,9 @@ using namespace std
 
 int main()
 {
-	int t,n,c,a[100];
+	int t,night,c,a[100];
 	cin>>t;
+	cout<<
 	for(int i=0;i<t;i++)
 	{
 		cin>>n>>c;

@@ -12,6 +12,6 @@ class test_class
 	int t;
 	test_class()
 	{
-		t=1;
+		t=2;
 	}
 }

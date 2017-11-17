@@ -1,16 +1,11 @@
-#include<stdio.h>
-
-void pnt(int);
-
+#include <stdio.h>
+#include<curses.h>
 int main()
 {
-    pnt(100);
-    return 0;
-}
+	FILE *f;
+	char ch[1000];
+	f=fopen("test.txt","w");
+	fgets(ch,1000,f);
+	fclose(f);
 
-
-
-void pnt(int n)
-{
-    n>0?printf("%d %d",n,pnt(n-1)):printf(" ");
 }

@@ -1,0 +1,524 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mat",
+				"match_bg"
+			],
+			[
+				"pr",
+				"print〔function〕"
+			],
+			[
+				"print",
+				"print〔function〕"
+			],
+			[
+				"ema",
+				"email_check"
+			],
+			[
+				"ph",
+				"phone_check"
+			],
+			[
+				"match_",
+				"match_number"
+			],
+			[
+				"match",
+				"match_dob"
+			],
+			[
+				"rol",
+				"roll_check"
+			],
+			[
+				"pri",
+				"print\t(test.java)"
+			],
+			[
+				"el",
+				"elif〔keyword〕"
+			],
+			[
+				"co",
+				"coin_check"
+			],
+			[
+				"fi",
+				"find_power〔function〕"
+			],
+			[
+				"fin",
+				"find_gcd"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"c",
+				"C"
+			],
+			[
+				"col",
+				"columns"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"n",
+				"n1"
+			],
+			[
+				"get",
+				"getElementByClassName"
+			],
+			[
+				"p",
+				"push"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"fo",
+				"for\tfor (…) {…}"
+			],
+			[
+				"an",
+				"angle"
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"str",
+				"strcpy"
+			],
+			[
+				"ns",
+				"ns\tNamespace"
+			],
+			[
+				"s",
+				"s"
+			],
+			[
+				"S",
+				"String"
+			],
+			[
+				"ne",
+				"nextInt"
+			],
+			[
+				"c_",
+				"c_1"
+			],
+			[
+				"sy",
+				"System"
+			],
+			[
+				"cl",
+				"class"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"su",
+				"summation"
+			],
+			[
+				"max",
+				"max_three"
+			],
+			[
+				"e",
+				"e"
+			],
+			[
+				"t",
+				"t"
+			],
+			[
+				"d",
+				"d"
+			],
+			[
+				"size",
+				"font-size"
+			],
+			[
+				"m",
+				"m"
+			],
+			[
+				"ran",
+				"random_num"
+			],
+			[
+				"temp",
+				"temp2"
+			],
+			[
+				"inc",
+				"include"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "disa",
+		"selected_items":
+		[
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Enable Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"cla",
+				"Package Control: List Packages"
+			],
+			[
+				"clang",
+				"Package Control: List Unmanaged Packages"
+			],
+			[
+				"c++",
+				"Build With: C++ Single File"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 657.0
+	},
+	"console":
+	{
+		"height": 200.0,
+		"history":
+		[
+			"cd",
+			"git init",
+			"git",
+			"python3 a6q1.py",
+			"git status",
+			"import os; os.system('git --version')",
+			"git",
+			"git init"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/arpit/TestCodes/regex.py",
+		"/home/arpit/TestCodes/qs.py",
+		"/home/arpit/IIITA/Python/pass6/a6q1.py",
+		"/home/arpit/Arpit/regex.py",
+		"/home/arpit/Arpit/q1.cpp",
+		"/home/arpit/Arpit/t6.cpp",
+		"/home/arpit/Arpit/test.java",
+		"/home/arpit/Arpit/test3.py",
+		"/home/arpit/Arpit/t6.py",
+		"/home/arpit/Arpit/t6.c",
+		"/home/arpit/Arpit/test5.py",
+		"/home/arpit/IIITA/C/Assignment4/a4q20.c",
+		"/home/arpit/Arpit/t.cpp",
+		"/home/arpit/Arpit/test4.c",
+		"/home/arpit/Downloads/a4q19.c",
+		"/home/arpit/.config/sublime-text-3/Packages/SublimeGit/SublimeGit.sublime-settings",
+		"/home/arpit/Arpit/t4.c",
+		"/home/arpit/2048/game_2048-master/index.html",
+		"/home/arpit/2048/game_2048-master/js/main.js",
+		"/home/arpit/toh.py",
+		"/home/arpit/Desktop/Django/project1/project1/toh.py",
+		"/home/arpit/Desktop/Django/project1/project1/wsgi.py",
+		"/home/arpit/Desktop/Django/project1/project1/urls.py",
+		"/home/arpit/Desktop/Django/project1/project1/settings.py",
+		"/home/arpit/Desktop/Django/project1/project1/__init__.py",
+		"/home/arpit/IIITA/C/Assignment4/quicksort.c",
+		"/home/arpit/Arpit/test5.c",
+		"/home/arpit/IIITA/C/Assignment4/a4q15.c",
+		"/home/arpit/IIITA/Python/pass5/a5q10.py",
+		"/home/arpit/IIITA/Python/pass5/a5q1.py",
+		"/home/arpit/IIITA/Python/pass5/a5q8.py",
+		"/home/arpit/IIITA/Python/pass5",
+		"/home/arpit/IIITA/C/Assignment4/a4q16.c",
+		"/home/arpit/IIITA/C/Assignment4/a4q7.c",
+		"/home/arpit/IIITA/C/Assignment4/a4q8.c",
+		"/home/arpit/IIITA/C/Assignment4/a4q14.c",
+		"/home/arpit/IIITA/C/Assignment4/a4q13.c",
+		"/home/arpit/IIITA/C/Assignment4/a4q12.c",
+		"/home/arpit/IIITA/C/Assignment4/a4q1.c",
+		"/home/arpit/IIITA/C/Assignment4/a4q2.c",
+		"/home/arpit/IIITA/C/Assignment4/a4q3.c",
+		"/home/arpit/IIITA/C/Assignment4/a4q4.c",
+		"/home/arpit/IIITA/C/Assignment4/a4q5.c",
+		"/home/arpit/IIITA/C/Assignment4/a4q6.c",
+		"/home/arpit/IIITA/C/Assignment4/a4q9.c",
+		"/home/arpit/IIITA/C/Assignment4/a4q10.c",
+		"/home/arpit/IIITA/C/Assignment4/a4q11.c",
+		"/home/arpit/IIITA/C/Assignment4/bbsort.c",
+		"/home/arpit/Arpit/t2.cpp",
+		"/home/arpit/Arpit/t5.cpp",
+		"/home/arpit/Arpit/t.py",
+		"/home/arpit/Arpit/t3.cpp",
+		"/home/arpit/Arpit/t4.cpp",
+		"/home/arpit/Arpit/t4.py",
+		"/home/arpit/Arpit/test.c",
+		"/home/arpit/Arpit/t3.py",
+		"/home/arpit/Arpit/t1.html",
+		"/home/arpit/dj/mysite/polls/views.py",
+		"/home/arpit/.config/sublime-text-3/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/home/arpit/Arpit/t2.py",
+		"/home/arpit/Desktop/arduino2.c",
+		"/home/arpit/Desktop/arduino.c",
+		"/home/arpit/Desktop/t.py",
+		"/home/arpit/Desktop/Dogs_Site/about.html",
+		"/home/arpit/Desktop/Dogs_Site/index.html",
+		"/home/arpit/Arpit/test4.java",
+		"/home/arpit/Arpit/gcd.java",
+		"/home/arpit/Arpit/test3.java",
+		"/home/arpit/Arpit/merge_sort.c",
+		"/home/arpit/Arpit/1.py",
+		"/home/arpit/test.c",
+		"/home/arpit/test.java",
+		"/home/arpit/test3.py",
+		"/home/arpit/test2.java",
+		"/home/arpit/1.py",
+		"/home/arpit/a2q1b.c",
+		"/home/arpit/Downloads/problem5.c",
+		"/home/arpit/Downloads/a1q5.c",
+		"/home/arpit/2.py",
+		"/home/arpit/3.py",
+		"/home/arpit/test.py",
+		"/home/arpit/test2.py",
+		"/home/arpit/test2.c",
+		"/home/arpit/test4.c",
+		"/home/arpit/test5.c",
+		"/home/arpit/IIITA/C/Assignment3/a3q7.c",
+		"/home/arpit/IIITA/C/Assignment3/a3q6.c",
+		"/home/arpit/IIITA/C/Assignment3/a3q5.c",
+		"/home/arpit/IIITA/C/Assignment3/a3q10.c",
+		"/home/arpit/IIITA/C/Assignment3/a3q9.c",
+		"/home/arpit/IIITA/C/Assignment3/a3q8.c",
+		"/home/arpit/IIITA/C/Assignment3/a3q4.c",
+		"/home/arpit/IIITA/C/Assignment3/a3q3.c",
+		"/home/arpit/IIITA/C/Assignment3/a3q2.c",
+		"/home/arpit/IIITA/C/Assignment3/inssort.c",
+		"/home/arpit/IIITA/C/Assignment3/a3q1.c",
+		"/home/arpit/IIITA/Python/pass4/q6.py",
+		"/home/arpit/IIITA/Python/pass4/q10.py",
+		"/home/arpit/IIITA/Python/pass4/q9.py",
+		"/home/arpit/IIITA/Python/pass4/q8.py",
+		"/home/arpit/IIITA/Python/pass4/q7.py",
+		"/home/arpit/IIITA/Python/pass4/q5.py",
+		"/home/arpit/IIITA/Python/pass4/q4.py",
+		"/home/arpit/IIITA/Python/pass4/q3.py",
+		"/home/arpit/IIITA/Python/pass4/q2.py",
+		"/home/arpit/IIITA/Python/pass4/q1.py",
+		"/home/arpit/IIITA/Python/pass4/q5.py4",
+		"/home/arpit/Documents/projects/f1.py",
+		"/home/arpit/Documents/projects/CHN03.c",
+		"/home/arpit/Documents/projects/CHN03",
+		"/home/arpit/Documents/projects/rotate.c",
+		"/home/arpit/Documents/projects/insertion_sort.c",
+		"/home/arpit/Documents/projects/rotate_python.py",
+		"/home/arpit/test1.py",
+		"/home/arpit/IIITA/Assignment1/q1iv.c",
+		"/home/arpit/Desktop/new.htm",
+		"/home/arpit/IIITA/pass3/q5.py",
+		"/home/arpit/IIITA/pass3/q4.py",
+		"/home/arpit/IIITA/pass3/q9.py",
+		"/home/arpit/IIITA/pass3/q6.py",
+		"/home/arpit/IIITA/Assignment3/a3q6.c",
+		"/home/arpit/IIITA/pass3/q9.c",
+		"/home/arpit/IIITA/Assignment3/input1.txt",
+		"/home/arpit/IIITA/Assignment3/input.txt",
+		"/home/arpit/IIITA/Assignment3/a3q8.c",
+		"/home/arpit/IIITA/Assignment3/a3q7.c",
+		"/home/arpit/IIITA/Assignment3/a3q4.c",
+		"/home/arpit/IIITA/pass3/q1.py"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 88.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "TowerOfHanoi.sublime-project",
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/test.java"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 143.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
