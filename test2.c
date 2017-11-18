@@ -4,12 +4,12 @@
 int merge(int arr[],int l,int m,int r)
 {
 	int a=l,b=m+1,i,c[100];
-	for(i=l;a<=m,b<=r;i++)
+	for(i=l;a<=m&&b<=r;i++)
 	{
 		if(arr[a]<arr[b])
-			c[i++]=arr[a++];
+			c[i]=arr[a++];
 		else
-			c[i++]=arr[b++];
+			c[i]=arr[b++];
 	}
 	while(a<=m)
 		c[i++]=arr[a++];
