@@ -8,30 +8,36 @@ while end=='n' or k<=5:
     a[x][y]=1
     flag=1
     if flag==1 and end=='n':
+        print("fun 1")
         for i in range(3):
             if flag==1:
                 try:
                     if sum(a[i][j] for j in range(3))==2:
                         for k in range(3):
                             if a[i][k]!=1:
-                                a[i][k]=='a'
+                                a[i][k]='a'
                                 flag=0
+                                print(k)
                     elif sum(a[i][j] for j in range(3))==3:
                         print("You Won")
                         end='yes'
                 except:
+                    if a[i][0]=='a' and a[i][1]=='a' and a[i][2]=='a':
+                        print("Computer Won")
                     pass
             else:
                 break
     if flag==1 and end=='n':
+        print("fun 2")
         for i in range(3):
             if flag==1:
                 try:
                     if sum(a[j][i] for j in range(3))==2:
                         for k in range(3):
-                            if a[k][j]!=1:
-                                a[k][i]=='a'
+                            if a[k][i]!=1:
+                                a[k][i]='a'
                                 flag=0
+                                print(k)
                     elif sum(a[j][i] for j in range(3))==3:
                         print("You Won")
                         end='yes'
@@ -40,6 +46,7 @@ while end=='n' or k<=5:
             else:
                 break
     if flag==1 and end=='n':
+        print("fun 3")
         try:
             if a[0][0]+a[1][1]+a[2][2]==2:
                 for i in range(3):
@@ -55,6 +62,7 @@ while end=='n' or k<=5:
             pass
 
     if flag==1 and end=='n':
+        print("fun 4")
         try:
             if a[0][2]+a[1][1]+a[2][0]==2:
                 for i in range(3):
@@ -68,6 +76,7 @@ while end=='n' or k<=5:
             pass
 
     if flag==1:
+        print("fun 5")
         s=[]
         for i in range(3):
             for j in range(3):
@@ -82,6 +91,7 @@ while end=='n' or k<=5:
             print(s)
             a[s[n][0]][s[n][1]]='a'
     k+=1
+
 
     for i in range(3):
         for j in range(3):
