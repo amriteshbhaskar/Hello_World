@@ -20,6 +20,7 @@ class myclass
     }
 }
 
+
 class c_1
 {
 	static void print()
