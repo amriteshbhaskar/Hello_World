@@ -43,7 +43,7 @@ while end=='n' or k<=5:
         try:
             if a[0][0]+a[1][1]+a[2][2]==2:
                 for i in range(3):
-                    if a[i][i]!='1':
+                    if a[i][i]!=1:
                         a[i][i]='a'
                         flag=0
             elif a[0][2]+a[1][1]+a[2][0]==3:
@@ -51,13 +51,14 @@ while end=='n' or k<=5:
                     end='yes'
             
         except:
+            flag=1
             pass
 
     if flag==1 and end=='n':
         try:
             if a[0][2]+a[1][1]+a[2][0]==2:
                 for i in range(3):
-                    if a[i][2-i]!='1':
+                    if a[i][2-i]!=1:
                         a[i][i]='a'
                         flag=0
             elif a[0][2]+a[1][1]+a[2][0]==3:
@@ -72,7 +73,7 @@ while end=='n' or k<=5:
             for j in range(3):
                 if a[i][j]==0:
                     s+=[[i,j]]
-        n=random.randint(0,len(s))
+        n=random.randint(0,len(s)-1)
         if len(s)==0:
             print("You Won")
             end='yes'
