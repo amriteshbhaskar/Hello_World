@@ -15,7 +15,9 @@ while end=='n' or k<=5:
     x,y=map(int,input().split())
     a[x][y]=1
     flag=1
-    if flag==1 and end=='n':
+    
+    
+    if flag==1 and end=='n':        #To check for possible horizontal moves
         for i in range(3):
             if flag==1:
                 try:
@@ -36,7 +38,11 @@ while end=='n' or k<=5:
                         pass
             else:
                 break
-    if flag==1 and end=='n':
+    
+    
+    
+    
+    if flag==1 and end=='n':        #To check for possible vertical moves
         for i in range(3):
             if flag==1:
                 try:
@@ -57,7 +63,11 @@ while end=='n' or k<=5:
                         pass
             else:
                 break
-    if flag==1 and end=='n':
+    
+    
+    
+    
+    if flag==1 and end=='n':        #To check for possible diagonal(left to right) moves
         try:
             if a[0][0]+a[1][1]+a[2][2]==2:
                 for i in range(3):
@@ -76,7 +86,10 @@ while end=='n' or k<=5:
             else:
                 pass
 
-    if flag==1 and end=='n':
+    
+    
+    
+    if flag==1 and end=='n':        #To check for possible diagonal(right to left) moves
         try:
             if a[0][2]+a[1][1]+a[2][0]==2:
                 for i in range(3):
@@ -94,29 +107,34 @@ while end=='n' or k<=5:
             else:
                 pass
 
-    if flag==1 and end=='n':
+    
+    
+    
+    if flag==1 and end=='n':        #Random move
         s=[]
         for i in range(3):
             for j in range(3):
                 if a[i][j]==0:
                     s+=[[i,j]]
-        
         if len(s)==0:
             print("Draw")
             end='yes'
-
         else: 
             n=random.randint(0,len(s)-1)
             a[s[n][0]][s[n][1]]='a'
-    k+=1
-
-
-    if end=='n':
+    
+    
+    
+    
+    if end=='n':        #To check is the player won
         for i in range(3):
             if a[i][0]==1 and a[i][1]==1 and a[i][2]==1:
                 print("You Won")
                 flag=0
                 end='yes'
+    
+    
+    
     
     if end=='n':
         for i in range(3):
@@ -125,11 +143,17 @@ while end=='n' or k<=5:
                 flag=0
                 end='yes'
     
+    
+    
+    
     if end=='n':
         if a[0][0]==1 and a[1][1]==1 and a[2][2]==1:
             print("You Won")
             flag=0
             end='yes'
+    
+    
+    
     
     if end=='n':
         if a[0][2]==1 and a[1][1]==1 and a[2][0]==1:
@@ -138,12 +162,16 @@ while end=='n' or k<=5:
             end='yes'
 
 
-    if end=='n':
+    
+    
+    if end=='n':        #To check if the computer won
         for i in range(3):
             if a[i][0]=='a' and a[i][1]=='a' and a[i][2]=='a':
                 print("Computer Won")
                 flag=0
                 end='yes'
+    
+    
     
     if end=='n':
         for i in range(3):
@@ -152,17 +180,25 @@ while end=='n' or k<=5:
                 flag=0
                 end='yes'
     
+    
+    
     if end=='n':
         if a[0][0]=='a' and a[1][1]=='a' and a[2][2]=='a':
             print("Computer Won")
             flag=0
             end='yes'
     
+    
+    
     if end=='n':
         if a[0][2]=='a' and a[1][1]=='a' and a[2][0]=='a':
             print("Computer Won")
             flag=0
             end='yes'
+    
+    
+    
+    k+=1
 
 
 
