@@ -3,14 +3,9 @@ a=[[0 for i in range(3)]for j in range(3)]
 
 
 for i in range(3):
-        for j in range(3):
-            if a[i][j]=='a':
-                print('O',end=' ')
-            elif a[i][j]==1:
-                print('X',end=' ')
-            else:
-                print('*',end=' ')
-        print('')
+    for j in range(3):       
+        print('*',end=' ')
+    print('')
 print('\n\n')
 
 
@@ -21,7 +16,6 @@ while end=='n' or k<=5:
     a[x][y]=1
     flag=1
     if flag==1 and end=='n':
-        print("fun 1")
         for i in range(3):
             if flag==1:
                 try:
@@ -43,7 +37,6 @@ while end=='n' or k<=5:
             else:
                 break
     if flag==1 and end=='n':
-        print("fun 2")
         for i in range(3):
             if flag==1:
                 try:
@@ -65,7 +58,6 @@ while end=='n' or k<=5:
             else:
                 break
     if flag==1 and end=='n':
-        print("fun 3")
         try:
             if a[0][0]+a[1][1]+a[2][2]==2:
                 for i in range(3):
@@ -85,7 +77,6 @@ while end=='n' or k<=5:
                 pass
 
     if flag==1 and end=='n':
-        print("fun 4")
         try:
             if a[0][2]+a[1][1]+a[2][0]==2:
                 for i in range(3):
@@ -104,7 +95,6 @@ while end=='n' or k<=5:
                 pass
 
     if flag==1 and end=='n':
-        print("fun 5")
         s=[]
         for i in range(3):
             for j in range(3):
@@ -121,62 +111,54 @@ while end=='n' or k<=5:
     k+=1
 
 
-    if flag==1 and end=='n':
-        print("h1")
+    if end=='n':
         for i in range(3):
             if a[i][0]==1 and a[i][1]==1 and a[i][2]==1:
                 print("You Won")
                 flag=0
                 end='yes'
     
-    if flag==1 and end=='n':
-        print("h2")
+    if end=='n':
         for i in range(3):
             if a[0][i]==1 and a[1][0]==1 and a[2][i]==1:
                 print("You Won")
                 flag=0
                 end='yes'
     
-    if flag==1 and end=='n':
-        print("h3")
+    if end=='n':
         if a[0][0]==1 and a[1][1]==1 and a[2][2]==1:
             print("You Won")
             flag=0
             end='yes'
     
-    if flag==1 and end=='n':
-        print("h4")
+    if end=='n':
         if a[0][2]==1 and a[1][1]==1 and a[2][0]==1:
             print("You Won")
             flag=0
             end='yes'
 
 
-    if flag==1 and end=='n':
-        print("c1")
+    if end=='n':
         for i in range(3):
             if a[i][0]=='a' and a[i][1]=='a' and a[i][2]=='a':
                 print("Computer Won")
                 flag=0
                 end='yes'
     
-    if flag==1 and end=='n':
-        print("c2")
+    if end=='n':
         for i in range(3):
             if a[0][i]=='a' and a[1][0]=='a' and a[2][i]=='a':
                 print("Computer Won")
                 flag=0
                 end='yes'
     
-    if flag==1 and end=='n':
-        print("c3")
+    if end=='n':
         if a[0][0]=='a' and a[1][1]=='a' and a[2][2]=='a':
             print("Computer Won")
             flag=0
             end='yes'
     
-    if flag==1 and end=='n':
-        print("c4")
+    if end=='n':
         if a[0][2]=='a' and a[1][1]=='a' and a[2][0]=='a':
             print("Computer Won")
             flag=0
