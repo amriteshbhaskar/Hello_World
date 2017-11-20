@@ -94,7 +94,7 @@ while end=='n' or k<=5:
                     s+=[[i,j]]
         
         if len(s)==0:
-            print("You Won")
+            print("Draw")
             end='yes'
 
         else: 
