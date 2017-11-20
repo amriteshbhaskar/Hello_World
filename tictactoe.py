@@ -29,6 +29,7 @@ while end=='n' or k<=5:
                     elif sum(a[i][j] for j in range(3))==3:
                         print("You Won")
                         end='yes'
+                        flag=0
                 except:
                     if a[i][0]=='a' and a[i][1]=='a' and a[i][2]=='a':
                         print("Computer Won")
@@ -54,6 +55,7 @@ while end=='n' or k<=5:
                     elif sum(a[j][i] for j in range(3))==3:
                         print("You Won")
                         end='yes'
+                        flag=0
                 except:
                     if a[0][i]=='a' and a[1][i]=='a' and a[2][i]=='a':
                         print("Computer Won")
@@ -77,6 +79,7 @@ while end=='n' or k<=5:
             elif a[0][2]+a[1][1]+a[2][0]==3:
                     print("You Won")
                     end='yes'
+                    flag=0
             
         except:
             if a[0][0]=='a' and a[1][1]=='a' and a[2][2]=='a':
@@ -99,6 +102,7 @@ while end=='n' or k<=5:
             elif a[0][2]+a[1][1]+a[2][0]==3:
                 print("You Won")
                 end='yes'
+                flag=0
         except:
             if a[i][0]=='a' and a[i][1]=='a' and a[i][2]=='a':
                 print("Computer Won")
@@ -175,7 +179,7 @@ while end=='n' or k<=5:
     
     if end=='n':
         for i in range(3):
-            if a[0][i]=='a' and a[1][0]=='a' and a[2][i]=='a':
+            if a[0][i]=='a' and a[1][i]=='a' and a[2][i]=='a':
                 print("Computer Won")
                 flag=0
                 end='yes'
