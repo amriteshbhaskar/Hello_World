@@ -11,7 +11,7 @@ print('\n\n')
 
 end='n'
 k=1
-while end=='n' or k<=5:
+while end=='n' and k<=5:
     x,y=map(int,input().split())
     a[x][y]=1
     flag=1
@@ -26,17 +26,9 @@ while end=='n' or k<=5:
                             if a[i][k]!=1:
                                 a[i][k]='a'
                                 flag=0
-                    elif sum(a[i][j] for j in range(3))==3:
-                        print("You Won")
-                        end='yes'
-                        flag=0
+    
                 except:
-                    if a[i][0]=='a' and a[i][1]=='a' and a[i][2]=='a':
-                        print("Computer Won")
-                        flag=0
-                        end='yes'
-                    else:
-                        pass
+                    pass
             else:
                 break
     
@@ -52,17 +44,8 @@ while end=='n' or k<=5:
                             if a[k][i]!=1:
                                 a[k][i]='a'
                                 flag=0
-                    elif sum(a[j][i] for j in range(3))==3:
-                        print("You Won")
-                        end='yes'
-                        flag=0
                 except:
-                    if a[0][i]=='a' and a[1][i]=='a' and a[2][i]=='a':
-                        print("Computer Won")
-                        flag=0
-                        end='yes'
-                    else:
-                        pass
+                    pass
             else:
                 break
     
@@ -76,18 +59,9 @@ while end=='n' or k<=5:
                     if a[i][i]!=1:
                         a[i][i]='a'
                         flag=0
-            elif a[0][2]+a[1][1]+a[2][0]==3:
-                    print("You Won")
-                    end='yes'
-                    flag=0
             
         except:
-            if a[0][0]=='a' and a[1][1]=='a' and a[2][2]=='a':
-                print("Computer Won")
-                flag=0
-                end='yes'
-            else:
-                pass
+            pass
 
     
     
@@ -99,22 +73,13 @@ while end=='n' or k<=5:
                     if a[i][2-i]!=1:
                         a[i][2-i]='a'
                         flag=0
-            elif a[0][2]+a[1][1]+a[2][0]==3:
-                print("You Won")
-                end='yes'
-                flag=0
         except:
-            if a[i][0]=='a' and a[i][1]=='a' and a[i][2]=='a':
-                print("Computer Won")
-                flag=0
-                end='yes'
-            else:
-                pass
+            pass
 
     
     
     
-    if flag==1 and end=='n':        #Random move
+    '''if flag==1 and end=='n':        #Random move
         s=[]
         for i in range(3):
             for j in range(3):
@@ -125,7 +90,7 @@ while end=='n' or k<=5:
             end='yes'
         else: 
             n=random.randint(0,len(s)-1)
-            a[s[n][0]][s[n][1]]='a'
+            a[s[n][0]][s[n][1]]='a' '''
     
     
     
@@ -142,7 +107,7 @@ while end=='n' or k<=5:
     
     if end=='n':
         for i in range(3):
-            if a[0][i]==1 and a[1][0]==1 and a[2][i]==1:
+            if a[0][i]==1 and a[1][i]==1 and a[2][i]==1:
                 print("You Won")
                 flag=0
                 end='yes'
@@ -204,6 +169,19 @@ while end=='n' or k<=5:
     
     k+=1
 
+    if flag==1 and end=='n':        #Random move
+        s=[]
+        for i in range(3):
+            for j in range(3):
+                if a[i][j]==0:
+                    s+=[[i,j]]
+        if len(s)==0:
+            print("Draw")
+            end='yes'
+        else: 
+            n=random.randint(0,len(s)-1)
+            a[s[n][0]][s[n][1]]='a'
+
 
 
     for i in range(3):
@@ -216,6 +194,9 @@ while end=='n' or k<=5:
                 print('*',end=' ')
         print('')
     print("\n\n")
+
+else:
+    pass
 
 
     
